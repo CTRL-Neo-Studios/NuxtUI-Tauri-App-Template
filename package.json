@@ -16,15 +16,15 @@
 		"lint:fix": "eslint --fix ."
 	},
 	"dependencies": {
-		"@iconify-json/lucide": "^1.2.39",
-		"@iconify-json/simple-icons": "^1.2.33",
-		"@nuxt/fonts": "0.11.2",
+		"@iconify-json/lucide": "^1.2.42",
+		"@iconify-json/simple-icons": "^1.2.34",
+		"@nuxt/fonts": "0.11.3",
 		"@nuxt/icon": "1.12.0",
 		"@nuxt/image": "1.10.0",
 		"@nuxt/ui": "3.1.1",
 		"@nuxtjs/i18n": "9.5.4",
 		"@vueuse/nuxt": "13.1.0",
-		"nuxt": "^3.17.1",
+		"nuxt": "^3.17.3",
 		"nuxt-auth-utils": "0.5.20",
 		"vue": "^3.5.13"
 	},
