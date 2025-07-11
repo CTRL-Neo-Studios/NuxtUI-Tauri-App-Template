@@ -2,5 +2,5 @@
 @import "@nuxt/ui";
 
 @theme static {
-  --font-sans: "Public Sans", sans-serif;
+  --font-sans: "Public Sans", "Inter", "Segoe UI Variable Static Display", sans-serif;
 }
