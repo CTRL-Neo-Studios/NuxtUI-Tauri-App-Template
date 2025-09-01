@@ -1,4 +1,4 @@
-# Nuxt UI v3 Starter
+# Nuxt UI v4 + Nuxt v4 + Tauri v2 Starter
 
 Look at [Nuxt docs](https://nuxt.com/docs/getting-started/introduction) and [Nuxt UI docs](https://ui3.nuxt.dev) to learn more.
 
@@ -7,8 +7,7 @@ Look at [Nuxt docs](https://nuxt.com/docs/getting-started/introduction) and [Nux
 Make sure to install the dependencies:
 
 ```bash
-# pnpm
-pnpm install
+bun i
 ```
 
 ## Development Server
@@ -16,8 +15,7 @@ pnpm install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# pnpm
-pnpm run dev
+bun run dev
 ```
 
 ## Production
@@ -25,15 +23,13 @@ pnpm run dev
 Build the application for production:
 
 ```bash
-# pnpm
-pnpm run build
+bun run build
 ```
 
 Locally preview production build:
 
 ```bash
-# pnpm
-pnpm run preview
+bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
