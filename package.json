@@ -21,7 +21,7 @@
 		"@nuxt/fonts": "0.11.4",
 		"@nuxt/icon": "2.0.0",
 		"@nuxt/image": "1.11.0",
-		"@nuxt/ui": "^4.0.0-alpha.0",
+		"@nuxt/ui": "^4.0.0-alpha.1",
 		"@nuxtjs/i18n": "10.0.4",
 		"@vueuse/nuxt": "13.6.0",
 		"nuxt": "^4.0.3",
@@ -29,7 +29,7 @@
 		"vue": "^3.5.20"
 	},
 	"devDependencies": {
-		"@tauri-apps/cli": "^2.8.3",
+		"@tauri-apps/cli": "^2.8.4",
 		"eslint": "^9.34.0",
 		"typescript": "^5.9.2"
 	}
