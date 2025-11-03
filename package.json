@@ -9,28 +9,28 @@
 		"preview": "nuxt preview",
 		"postinstall": "nuxt prepare",
 		"tauri": "cd src-tauri && tauri",
-		"tauri:dev": "cd src-tauri && pnpm tauri dev",
-		"tauri:build": "cd src-tauri && pnpm i && pnpm tauri build",
-		"tauri:build:debug": "cd src-tauri && pnpm tauri build --debug",
+		"tauri:dev": "cd src-tauri && bun tauri dev",
+		"tauri:build": "cd src-tauri && bun i && bun tauri build",
+		"tauri:build:debug": "cd src-tauri && bun tauri build --debug",
 		"lint": "eslint .",
 		"lint:fix": "eslint --fix ."
 	},
 	"dependencies": {
-		"@iconify-json/lucide": "^1.2.66",
-		"@iconify-json/simple-icons": "^1.2.50",
+		"@iconify-json/lucide": "^1.2.72",
+		"@iconify-json/simple-icons": "^1.2.57",
 		"@nuxt/fonts": "0.11.4",
 		"@nuxt/icon": "2.0.0",
 		"@nuxt/image": "1.11.0",
-		"@nuxt/ui": "^4.0.0-alpha.1",
+		"@nuxt/ui": "^4.1.0",
 		"@nuxtjs/i18n": "10.0.4",
 		"@vueuse/nuxt": "13.6.0",
-		"nuxt": "^4.1.0",
+		"nuxt": "^4.2.0",
 		"nuxt-auth-utils": "0.5.23",
-		"vue": "^3.5.21"
+		"vue": "^3.5.22"
 	},
 	"devDependencies": {
-		"@tauri-apps/cli": "^2.8.4",
-		"eslint": "^9.34.0",
-		"typescript": "^5.9.2"
+		"@tauri-apps/cli": "^2.9.2",
+		"eslint": "^9.39.0",
+		"typescript": "^5.9.3"
 	}
 }
