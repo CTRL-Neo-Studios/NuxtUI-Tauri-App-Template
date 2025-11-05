@@ -19,18 +19,18 @@
 		"@iconify-json/lucide": "^1.2.72",
 		"@iconify-json/simple-icons": "^1.2.57",
 		"@nuxt/fonts": "0.11.4",
-		"@nuxt/icon": "2.0.0",
+		"@nuxt/icon": "2.1.0",
 		"@nuxt/image": "1.11.0",
 		"@nuxt/ui": "^4.1.0",
-		"@nuxtjs/i18n": "10.0.4",
-		"@vueuse/nuxt": "13.6.0",
+		"@nuxtjs/i18n": "10.2.0",
+		"@vueuse/nuxt": "14.0.0",
 		"nuxt": "^4.2.0",
-		"nuxt-auth-utils": "0.5.23",
+		"nuxt-auth-utils": "0.5.25",
 		"vue": "^3.5.22"
 	},
 	"devDependencies": {
-		"@tauri-apps/cli": "^2.9.2",
-		"eslint": "^9.39.0",
+		"@tauri-apps/cli": "^2.9.3",
+		"eslint": "^9.39.1",
 		"typescript": "^5.9.3"
 	}
 }
