@@ -6,12 +6,12 @@ export default defineNuxtConfig({
 
     css: ["~/assets/css/main.css"],
 
-    compatibilityDate: "2024-11-27",
+    compatibilityDate: "2026-01-20",
 
     // Enable SSG
     ssr: false,
     // Enables the development server to be discoverable by other devices when running on iOS physical devices
-    devServer: {host: process.env.TAURI_DEV_HOST || "localhost"},
+    devServer: {host: "0"},
     vite: {
         // Better support for Tauri CLI output
         clearScreen: false,
