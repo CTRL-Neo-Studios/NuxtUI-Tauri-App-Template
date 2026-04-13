@@ -21,5 +21,13 @@ tauri-build = { version = "2.5.3", features = [ "config-json5" ] }
 serde_json = "1.0"
 serde = { version = "1.0", features = ["derive"] }
 log = "0.4"
-tauri = { version = "2.9.5", features = [ "config-json5" ] }
+tauri = { version = "2.10.1", features = ["protocol-asset", "macos-private-api", "devtools", "config-json5"] }
 tauri-plugin-log = "2.8.0"
+tauri-plugin-clipboard-manager = "2.0.0"
+tauri-plugin-os = "2.0.0"
+tauri-plugin-dialog = "2.0.0"
+tauri-plugin-opener = "2.0.0"
+tauri-plugin-fs = { version = "2.0.0", features = [ "watch" ] }
+tauri-plugin-notification = "2.0.0"
+tauri-plugin-process = "2.0.0"
+tauri-plugin-store = "2.0.0"
