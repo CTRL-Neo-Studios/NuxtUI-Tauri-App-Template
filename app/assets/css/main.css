@@ -1,6 +1,73 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
-@theme static {
-  --font-sans: "Public Sans", "Inter", "Segoe UI Variable Static Display", sans-serif;
+@theme {
+  --font-sans: 'Geist', 'Inter', 'Segoe UI Variable Static Display', 'Public Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --ui-radius: 0.375rem;
+  --ui-text: var(--ui-color-neutral-950);
+  --ui-text-highlighted: var(--ui-color-neutral-950);
+  --ui-bg-accented: var(--ui-color-neutral-100);
+  --ui-bg-inverted: var(--ui-color-neutral-950);
+  --ui-border-muted: var(--ui-color-neutral-100);
+  --ui-border-inverted: var(--ui-color-neutral-950);
+  --ui-color-primary-50: oklch(0.552 0.016 285.938);
+  --ui-color-primary-100: oklch(0.442 0.017 285.786);
+  --ui-color-primary-200: oklch(0.37 0.013 285.805);
+  --ui-color-primary-300: oklch(0.274 0.006 286.033);
+  --ui-color-primary-400: oklch(0.21 0.006 285.885);
+  --ui-color-primary-500: oklch(0.141 0.005 285.823);
+  --ui-color-primary-600: oklch(0.141 0.005 285.823);
+  --ui-color-primary-700: oklch(0.141 0.005 285.823);
+  --ui-color-primary-800: oklch(0.141 0.005 285.823);
+  --ui-color-primary-900: oklch(0.141 0.005 285.823);
+  --ui-color-primary-950: oklch(0.141 0.005 285.823);
+  --ui-color-secondary-50: oklch(0.967 0.001 286.375);
+  --ui-color-secondary-100: oklch(0.92 0.004 286.32);
+  --ui-color-secondary-200: oklch(0.871 0.006 286.286);
+  --ui-color-secondary-300: oklch(0.705 0.015 286.067);
+  --ui-color-secondary-400: oklch(0.552 0.016 285.938);
+  --ui-color-secondary-500: oklch(0.442 0.017 285.786);
+  --ui-color-secondary-600: oklch(0.37 0.013 285.805);
+  --ui-color-secondary-700: oklch(0.274 0.006 286.033);
+  --ui-color-secondary-800: oklch(0.21 0.006 285.885);
+  --ui-color-secondary-900: oklch(0.141 0.005 285.823);
+  --ui-color-secondary-950: oklch(0.141 0.005 285.823);
+}
+
+.dark {
+  --ui-text: var(--ui-color-neutral-50);
+  --ui-text-highlighted: white;
+  --ui-text-inverted: var(--ui-color-neutral-950);
+  --ui-bg: var(--ui-color-neutral-950);
+  --ui-bg-muted: var(--ui-color-neutral-900);
+  --ui-bg-elevated: var(--ui-color-neutral-900);
+  --ui-bg-accented: var(--ui-color-neutral-800);
+  --ui-bg-inverted: var(--ui-color-neutral-50);
+  --ui-border-muted: var(--ui-color-neutral-800);
+  --ui-border-inverted: var(--ui-color-neutral-50);
+  --ui-color-primary-50: oklch(0.985 0 0);
+  --ui-color-primary-100: oklch(0.985 0 0);
+  --ui-color-primary-200: oklch(0.985 0 0);
+  --ui-color-primary-300: oklch(0.985 0 0);
+  --ui-color-primary-400: oklch(0.985 0 0);
+  --ui-color-primary-500: oklch(0.985 0 0);
+  --ui-color-primary-600: oklch(0.967 0.001 286.375);
+  --ui-color-primary-700: oklch(0.92 0.004 286.32);
+  --ui-color-primary-800: oklch(0.871 0.006 286.286);
+  --ui-color-primary-900: oklch(0.705 0.015 286.067);
+  --ui-color-primary-950: oklch(0.552 0.016 285.938);
+  --ui-color-secondary-50: oklch(0.985 0 0);
+  --ui-color-secondary-100: oklch(0.985 0 0);
+  --ui-color-secondary-200: oklch(0.967 0.001 286.375);
+  --ui-color-secondary-300: oklch(0.92 0.004 286.32);
+  --ui-color-secondary-400: oklch(0.871 0.006 286.286);
+  --ui-color-secondary-500: oklch(0.705 0.015 286.067);
+  --ui-color-secondary-600: oklch(0.552 0.016 285.938);
+  --ui-color-secondary-700: oklch(0.442 0.017 285.786);
+  --ui-color-secondary-800: oklch(0.37 0.013 285.805);
+  --ui-color-secondary-900: oklch(0.274 0.006 286.033);
+  --ui-color-secondary-950: oklch(0.21 0.006 285.885);
 }
