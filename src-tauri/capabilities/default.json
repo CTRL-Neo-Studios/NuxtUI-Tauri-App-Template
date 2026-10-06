@@ -104,7 +104,6 @@
     "core:webview:allow-webview-position",
     "core:webview:allow-webview-show",
     "core:webview:allow-webview-size",
-    "decorum:allow-show-snap-overlay",
     "fs:default",
     "dialog:default",
     "store:default",
