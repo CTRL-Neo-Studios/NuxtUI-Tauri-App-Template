@@ -2,10 +2,9 @@
 export default defineNuxtConfig({
     devtools: {enabled: true},
 
-    extends: [["github:CTRL-Neo-Studios/nuxt-ui-extras#dev", { install: true }]],
-
     modules: [
       "@nuxt/ui",
+      "@type32/nuxt-ui-extras",
       "nuxt-auth-utils",
       "@vueuse/nuxt",
       "@nuxt/image",
