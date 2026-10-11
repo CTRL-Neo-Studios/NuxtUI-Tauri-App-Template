@@ -33,18 +33,6 @@ export default defineNuxtConfig({
             // Tauri requires a consistent port
             strictPort: true,
         },
-        // ponytail: workaround for nuxt/nuxt#36473 (4.6.0 dep-scan breaks on `#components`
-        // inside installed modules). Delete once fixed upstream.
-        plugins: [{
-            name: "nuxt:scan-external-virtual-specifiers",
-            enforce: "pre",
-            resolveId: {
-                filter: { id: /^#/ },
-                handler(id, _importer, options) {
-                    if ((options as { scan?: boolean } | undefined)?.scan) return { id, external: true };
-                },
-            },
-        }],
         optimizeDeps: {
             include: [
                 "@tauri-apps/plugin-store",
