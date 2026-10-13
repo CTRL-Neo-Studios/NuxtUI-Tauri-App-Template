@@ -31,6 +31,318 @@
       "skillPath": "skills/pnpm/SKILL.md",
       "computedHash": "d1bd6f4fd38ff1ba33b857223c58a832d1cd5b488163ba0d389db449be472603"
     },
+    "tauri": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri/SKILL.md",
+      "computedHash": "e63ccff10ceaabf72506a2613b86c1c3e310152c1548b34b6614a7eb539c6f3a"
+    },
+    "tauri-app-autostart": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-autostart/SKILL.md",
+      "computedHash": "cd94e7f0493a59a95d832ee55c1c8f13b64a673a513b6827a25967c559ef572a"
+    },
+    "tauri-app-barcode-scanner": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-barcode-scanner/SKILL.md",
+      "computedHash": "98e218526f76648b5a69760dc7be10e5e47bc9816aaebe5e980fc527248590d6"
+    },
+    "tauri-app-biometric": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-biometric/SKILL.md",
+      "computedHash": "6d8cc98fdfbff3c4a3f06306c89286d52894eb6b40987b6ff790fed0a03be4b8"
+    },
+    "tauri-app-cli": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-cli/SKILL.md",
+      "computedHash": "32141a8605728809a9b0f08d8026e9ae75ceaddea05323ceb568d35e12612a1f"
+    },
+    "tauri-app-clipboard": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-clipboard/SKILL.md",
+      "computedHash": "be5fc6457c9c1d91c456ade4e89c369b2fa2e3e9ac9fb4eee05fbfcd751131da"
+    },
+    "tauri-app-creator": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-creator/SKILL.md",
+      "computedHash": "a6e547b12cce4d1acd6bcf544aec1b8a671b4d6142706880172ee708dc2be852"
+    },
+    "tauri-app-deep-linking": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-deep-linking/SKILL.md",
+      "computedHash": "4106890d5e22a3a92d3359ccfeaf52add51ea401637a6b5295c945843aa1139f"
+    },
+    "tauri-app-develop": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-develop/SKILL.md",
+      "computedHash": "a407c6b296d6c1592a39be1f1fce6ae251f62c5678366bf204b7fc6558488c08"
+    },
+    "tauri-app-dialog": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-dialog/SKILL.md",
+      "computedHash": "9e7d8a3f355ebb70273389b614b2c05b5ee6d221a99335f5e0b8f359fb6e392d"
+    },
+    "tauri-app-file-system": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-file-system/SKILL.md",
+      "computedHash": "bd24cf06e8360ac0ad701122eddb917ed42c56589cc468adc23cac949a52617c"
+    },
+    "tauri-app-frontend-selection": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-frontend-selection/SKILL.md",
+      "computedHash": "749423890615c95e74ae039c67effac130f4abe254fa0783e5a35af1929aa06e"
+    },
+    "tauri-app-geolocation": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-geolocation/SKILL.md",
+      "computedHash": "4f8cba8f02bf44d9f58e1dc9676e79516391572c83789e97f56da0a23ec07b23"
+    },
+    "tauri-app-global-shortcut": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-global-shortcut/SKILL.md",
+      "computedHash": "27f7d8e6cf516c2975318fa78018793d54f39e487d8fa0611aa094f40186e520"
+    },
+    "tauri-app-haptics": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-haptics/SKILL.md",
+      "computedHash": "e644d75ebb200a60e8f14eb5d2be9dd00a45f949d014260c31cf3e0c7d13f50f"
+    },
+    "tauri-app-http-client": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-http-client/SKILL.md",
+      "computedHash": "e61b990b4f0b90b4286623d075573e514ff4708c78968af020be344b1cc042b2"
+    },
+    "tauri-app-localhost": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-localhost/SKILL.md",
+      "computedHash": "f1978134fad6f26a7aa2f37d1846be74d9745133f0826a7052293215d6f4ee61"
+    },
+    "tauri-app-logging": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-logging/SKILL.md",
+      "computedHash": "817caa7a52f64c838802c7eefe6a875ae9345bebc979d09193d9d4ac53057e9e"
+    },
+    "tauri-app-nfc": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-nfc/SKILL.md",
+      "computedHash": "0aa2c4b492a49f6c588740ebaf60b20e2840cd0539feabae83a48e04214da946"
+    },
+    "tauri-app-notification": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-notification/SKILL.md",
+      "computedHash": "dcada901bfadacffe64301b1602efbb7baa4c650716871f0ad4d863893ba4fe6"
+    },
+    "tauri-app-opener": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-opener/SKILL.md",
+      "computedHash": "06258e79eadd7853b2cb1ca01ad24b888c99bfab14a41905cba81e50bafdee71"
+    },
+    "tauri-app-os-info": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-os-info/SKILL.md",
+      "computedHash": "f2eb798ccc28d4905236cd17a55679d5756f8d836489e95d80fab37af4c2c5e4"
+    },
+    "tauri-app-persisted-scope": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-persisted-scope/SKILL.md",
+      "computedHash": "987dceab6e78501818b8527cae9b20377fbf5c903888256c0b0bc3595374a32a"
+    },
+    "tauri-app-planning": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-planning/SKILL.md",
+      "computedHash": "2ce099859c353a4695458bb9a07d541c114b75864f54d66bb455cfb5a0efcca4"
+    },
+    "tauri-app-plugin-permissions": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-plugin-permissions/SKILL.md",
+      "computedHash": "7735e29726f7d581eb5c5ce227eabc03bc528bacfb149d302102cb57e348fc1a"
+    },
+    "tauri-app-positioner": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-positioner/SKILL.md",
+      "computedHash": "7a17c8f331a5b5dcfeef1ecd75c605bc2eedac50c21e7c3a92f96d9bf6eb0faf"
+    },
+    "tauri-app-process": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-process/SKILL.md",
+      "computedHash": "4aad8c594c2f02cedbc8a0bc6482111936fb0043827cc866abcf92f17733aef5"
+    },
+    "tauri-app-shell": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-shell/SKILL.md",
+      "computedHash": "6542afd7d537b414d809193cdf5b7d2a2fb61027c479de4988889b8fcd07f48f"
+    },
+    "tauri-app-sidecar-nodejs": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-sidecar-nodejs/SKILL.md",
+      "computedHash": "364fac8f1483973319df28265d7c6d127954d80b4c2b3a73f8a6d8bae1263bfe"
+    },
+    "tauri-app-single-instance": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-single-instance/SKILL.md",
+      "computedHash": "15ac0c8dbe2a32d4327270742b95d4d66a194c813780e3a65f2dbaf0ca68fe1e"
+    },
+    "tauri-app-splashscreen": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-splashscreen/SKILL.md",
+      "computedHash": "b5aeabc2f6e91af9874a829c95f4371e519b13249e1c4ba50ff74cc096ed015c"
+    },
+    "tauri-app-sql": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-sql/SKILL.md",
+      "computedHash": "9dd8f6712660156aa9652d97a0a1136f5d222e8a3c2c4a40ff15aa58155f991c"
+    },
+    "tauri-app-store": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-store/SKILL.md",
+      "computedHash": "e29aa485fcf35c1fd1c5e18fb347d0b2791a97c47f355c6554d5c8bd106ea00c"
+    },
+    "tauri-app-stronghold": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-stronghold/SKILL.md",
+      "computedHash": "a81e4503deab740224473e5cdb06c6e106c0368a44f5f607db71155044358000"
+    },
+    "tauri-app-system-tray": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-system-tray/SKILL.md",
+      "computedHash": "3316fb7fa0b9ac36bd9718e930a02ee05deedc32725a658086d52ffd259336b4"
+    },
+    "tauri-app-updater": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-updater/SKILL.md",
+      "computedHash": "0cee581c140a8a5bc04d58fa287c2d85f1e3c9dacfe33474c3cd166f866cf240"
+    },
+    "tauri-app-upload": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-upload/SKILL.md",
+      "computedHash": "6ae4eb5261a7906f81d0feb91112e7adbda5701672f36b0048aa37e5170940dc"
+    },
+    "tauri-app-wasm": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-wasm/SKILL.md",
+      "computedHash": "25969d3902739ca6ec9d65da8ff58a1beee57e4e21fbaa9937c5e04de3187f90"
+    },
+    "tauri-app-websocket": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-websocket/SKILL.md",
+      "computedHash": "5a4e886c5ef3b1f415a2c0defe6b26acec01e274ba48ab1d9a1b3a9667edc2b8"
+    },
+    "tauri-app-window-menu": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-window-menu/SKILL.md",
+      "computedHash": "ee920638a43e49135f4040d1ead03a16d8e2d83f87cede60746bef7a8bd5a75a"
+    },
+    "tauri-app-window-state": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-window-state/SKILL.md",
+      "computedHash": "d2b1e0df465af0f2a173ac04b19b9ebbd726c139863b0cc9bf4ada93cc0eefd7"
+    },
+    "tauri-build": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-build/SKILL.md",
+      "computedHash": "8132c960bdf93a247b297edc6a2dc16408670339d3bc3326489558d0d6f66bec"
+    },
+    "tauri-concept": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-concept/SKILL.md",
+      "computedHash": "b0e52be171218ca6a16fd00d59227a5c9b5a764b81733489c58b9ce1b59c5f9d"
+    },
+    "tauri-config": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-config/SKILL.md",
+      "computedHash": "93897db24989915f7e85e5a4630c2fc69861ef7a74cc045f05540fa8c6f28143"
+    },
+    "tauri-framework-security": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-framework-security/SKILL.md",
+      "computedHash": "b91e0489bfbf73e555abaa8b1372cd2e75cdd995708f159aaebcb5c4e3a5fe15"
+    },
+    "tauri-framework-upgrade": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-framework-upgrade/SKILL.md",
+      "computedHash": "af55bcbdb6419f1ee1fd01313889408e3a9702edc2a12e87903fc4c811bd7704"
+    },
+    "tauri-ipc": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-ipc/SKILL.md",
+      "computedHash": "1de5fcef985c56df5bcd21e147281d34211dc061ca7e17b171900fd7573a4243"
+    },
+    "tauri-mobile": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-mobile/SKILL.md",
+      "computedHash": "3a1da42b47ca117962469a8327e3fe03a3c5dacaa9395f6ddbaf5a174dee7aad"
+    },
+    "tauri-scaffold": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-scaffold/SKILL.md",
+      "computedHash": "f965ac5f3414cef4eb122018af0307467a62cc2a1ac314f8ffb0919a8cb9f769"
+    },
+    "tauri-security": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-security/SKILL.md",
+      "computedHash": "ae6038bc9ddf61328e85928143318c463b12644012091fc5f7f2d91211a7bb06"
+    },
+    "tauri-setup": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-setup/SKILL.md",
+      "computedHash": "d833bc8e239d4ab752407401f303990d01094ac112385c41f152b7c8c4defd31"
+    },
+    "tauri-window": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-window/SKILL.md",
+      "computedHash": "d25e1b672bbd9dbf3647215331cba458ed36383ca5d9f66ac001dc89de3b4b03"
+    },
     "vite": {
       "source": "antfu/skills",
       "sourceType": "github",

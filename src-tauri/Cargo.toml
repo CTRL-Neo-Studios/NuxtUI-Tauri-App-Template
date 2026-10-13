@@ -31,3 +31,8 @@ tauri-plugin-fs = { version = "2.5.2", features = [ "watch" ] }
 tauri-plugin-notification = "2.4.0"
 tauri-plugin-process = "2.3.1"
 tauri-plugin-store = "2.4.5"
+
+# Desktop-only (not compiled for iOS/Android)
+[target.'cfg(not(any(target_os = "android", target_os = "ios")))'.dependencies]
+tauri-plugin-decorum = "1.1.1"
+window-vibrancy = "0.8.1"

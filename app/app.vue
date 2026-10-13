@@ -8,3 +8,8 @@
         </NuxtLayout>
     </UApp>
 </template>
+<style scoped>
+html, body {
+    background: transparent;
+}
+</style>

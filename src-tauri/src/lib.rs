@@ -1,6 +1,9 @@
+#[cfg(desktop)]
+mod window_effects;
+
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
-    tauri::Builder::default()
+    let builder = tauri::Builder::default()
         .plugin(tauri_plugin_store::Builder::new().build())
         .plugin(tauri_plugin_process::init())
         .plugin(tauri_plugin_notification::init())
@@ -8,7 +11,11 @@ pub fn run() {
         .plugin(tauri_plugin_opener::init())
         .plugin(tauri_plugin_clipboard_manager::init())
         .plugin(tauri_plugin_dialog::init())
-        .plugin(tauri_plugin_os::init())
+        .plugin(tauri_plugin_os::init());
+
+    #[cfg(desktop)] let builder = builder.plugin(tauri_plugin_decorum::init()); // decorum (1/2)
+
+    builder
         .setup(|app| {
             if cfg!(debug_assertions) {
                 app.handle().plugin(
@@ -16,6 +23,15 @@ pub fn run() {
                         .level(log::LevelFilter::Info)
                         .build(),
                 )?;
+            }
+
+            // Desktop window effects: comment out a line to disable it.
+            #[cfg(desktop)]
+            {
+                use tauri::Manager;
+                let main = app.get_webview_window("main").unwrap();
+                window_effects::decorum(&main)?; // decorum (2/2)
+                // window_effects::vibrancy(&main)?;
             }
             Ok(())
         })
