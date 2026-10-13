@@ -20,9 +20,6 @@
         "@tauri-apps/plugin-os": "~2.4.0",
         "@tauri-apps/plugin-process": "~2.4.0",
         "@tauri-apps/plugin-store": "~2.5.0",
-        "@tiptap/extension-collaboration": "^3.31.4",
-        "@tiptap/extension-node-range": "^3.31.4",
-        "@tiptap/y-tiptap": "^3.0.9",
         "@type32/nuxt-cs-utils": "^2.2.2",
         "@type32/nuxt-ui-extras": "^0.1.1",
         "@vueuse/nuxt": "15.0.0",
@@ -31,7 +28,6 @@
         "tailwindcss": "^4.3.3",
         "typescript": "6.0.3",
         "vue": "^3.5.43",
-        "yjs": "^13.6.33",
         "zod": "^4.6.5",
       },
       "devDependencies": {
